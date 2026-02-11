@@ -29,15 +29,6 @@ export const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: `url(${heroBg})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
 
       {/* Background Effects */}
       <div className="absolute inset-0 bg-grid-pattern opacity-30" />

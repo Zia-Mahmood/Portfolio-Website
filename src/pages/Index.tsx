@@ -11,6 +11,8 @@ import { Footer } from '@/components/Footer';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
+import { MouseFollower } from '@/components/MouseFollower';
+import { ParticleBackground } from '@/components/ParticleBackground';
 
 const Index = () => {
   const [showAllCertifications, setShowAllCertifications] = useState(false);
@@ -27,15 +29,24 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Education />
+    <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+      <MouseFollower />
+      
+      {/* GLOBAL BACKGROUND: Fixed position so it doesn't scroll away */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+          <ParticleBackground />
+      </div>
+
+      {/* Content needs relative z-index to sit on top of background */}
+      <div className="relative z-10">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Experience />
+          <Projects />
+          <Education />
 
         {showAllCertifications ? (
           <Certifications />
@@ -60,6 +71,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+    </div>
     </div>
   );
 };

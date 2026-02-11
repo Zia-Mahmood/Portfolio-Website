@@ -6,77 +6,65 @@
 
 @layer base {
   :root {
-    /* Dark sophisticated theme */
-    --background: 222 47% 5%;
-    --foreground: 210 40% 98%;
+    /* --- LIGHT MODE DEFAULTS --- */
+    --background: 210 40% 98%; /* Light Gray/White */
+    --foreground: 222 47% 5%;  /* Dark Blue/Black */
 
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 5%;
 
-    --popover: 222 47% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 5%;
 
-    /* Primary: Cyan/Teal accent */
-    --primary: 187 92% 47%;
-    --primary-rgb: 59 235 245;
-    --primary-foreground: 222 47% 5%;
+    /* Primary: Cyan/Teal (Keep consistency) */
+    --primary: 187 92% 35%; /* Slightly darker for contrast on white */
+    --primary-foreground: 210 40% 98%;
 
-    /* Secondary: Slate blue */
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 5%;
 
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Accent: Warm amber */
     --accent: 38 92% 50%;
     --accent-foreground: 222 47% 5%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 187 92% 47%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 187 92% 35%;
 
     --radius: 0.75rem;
-
-    /* Custom gradient stops */
-    --gradient-start: 187 92% 47%;
-    --gradient-end: 199 89% 48%;
-    --gradient-accent: 38 92% 50%;
-
-    /* Glow effects */
-    --glow-primary: 187 92% 47%;
-    --glow-accent: 38 92% 50%;
-
-    --sidebar-background: 222 47% 5%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 187 92% 47%;
-    --sidebar-primary-foreground: 222 47% 5%;
-    --sidebar-accent: 217 33% 17%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 217 33% 17%;
-    --sidebar-ring: 187 92% 47%;
   }
 
   .dark {
+    /* --- DARK MODE OVERRIDES (Your original colors) --- */
     --background: 222 47% 5%;
     --foreground: 210 40% 98%;
+
     --card: 222 47% 8%;
     --card-foreground: 210 40% 98%;
+
     --popover: 222 47% 8%;
     --popover-foreground: 210 40% 98%;
+
     --primary: 187 92% 47%;
     --primary-foreground: 222 47% 5%;
+
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
+
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
+
     --accent: 38 92% 50%;
     --accent-foreground: 222 47% 5%;
+
     --destructive: 0 62% 30%;
     --destructive-foreground: 210 40% 98%;
+
     --border: 217 33% 17%;
     --input: 217 33% 17%;
     --ring: 187 92% 47%;
