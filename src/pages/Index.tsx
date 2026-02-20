@@ -29,7 +29,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
+    <div className="min-h-screen bg-background text-foreground transition-colors duration-300 overflow-x-hidden relative">
       <MouseFollower />
       
       {/* GLOBAL BACKGROUND: Fixed position so it doesn't scroll away */}

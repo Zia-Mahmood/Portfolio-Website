@@ -48,7 +48,6 @@ const skills: Skill[] = [
 
   // AI/ML Libraries
   { name: 'PyTorch', category: 'AI/ML Libraries', icon:'/icons/pytorch.svg' },
-  { name: 'TensorFlow', category: 'AI/ML Libraries', icon:'/icons/tensorflow.svg' },
   { name: 'NumPy', category: 'AI/ML Libraries', icon:'/icons/numpy.svg' },
   { name: 'Pandas', category: 'AI/ML Libraries', icon:'/icons/pandas.svg' },
   { name: 'OpenCV', category: 'AI/ML Libraries', icon:'/icons/opencv.svg' },
@@ -59,9 +58,6 @@ const skills: Skill[] = [
   // AI/ML Concepts
   { name: 'Supervised Learning', category: 'AI/ML Concepts', icon:'/icons/supervised.svg' },
   { name: 'Unsupervised Learning', category: 'AI/ML Concepts', icon:'/icons/unsupervised.svg' },
-  { name: 'Regression', category: 'AI/ML Concepts', icon:'/icons/regression.svg' },
-  { name: 'Classification', category: 'AI/ML Concepts', icon:'/icons/classification.svg' },
-  { name: 'Clustering', category: 'AI/ML Concepts', icon:'/icons/clustering.svg' },
   { name: 'Computer Vision', category: 'AI/ML Concepts', icon:'/icons/cv.svg' },
   { name: 'Natural Language Processing', category: 'AI/ML Concepts', icon:'/icons/nlp.svg' },
 

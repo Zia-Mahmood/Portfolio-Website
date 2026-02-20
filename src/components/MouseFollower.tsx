@@ -18,7 +18,7 @@ export const MouseFollower = () => {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 w-8 h-8 rounded-full border border-primary/50 bg-primary/20 pointer-events-none z-50 backdrop-blur-sm"
+      className="hidden md:block fixed top-0 left-0 w-8 h-8 rounded-full border border-primary/50 bg-primary/20 pointer-events-none z-50 backdrop-blur-sm"
       animate={{
         x: mousePosition.x - 16, // Center the circle (width/2)
         y: mousePosition.y - 16,
