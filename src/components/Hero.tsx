@@ -18,10 +18,10 @@ const resumeLinks = [
     label: 'Computer Vision',
     url: 'https://drive.google.com/uc?id=1n8xCprgq_0tl27iilyMCOutIXqmYTOlm&export=download',
   },
-  {
-    label: 'Blockchain',
-    url: 'https://drive.google.com/uc?id=1fueOKWgqQXv2xm-xrmdcqGnQ5-pI1Jh7&export=download',
-  },
+  // {
+  //   label: 'Blockchain',
+  //   url: 'https://drive.google.com/uc?id=1fueOKWgqQXv2xm-xrmdcqGnQ5-pI1Jh7&export=download',
+  // },
 ];
 
 export const Hero = () => {

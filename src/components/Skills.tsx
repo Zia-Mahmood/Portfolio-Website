@@ -8,8 +8,8 @@ type SkillCategory =
   | 'AI/ML Libraries'
   | 'AI/ML Concepts'
   | 'Databases & Cloud'
-  | 'Tools'
-  | 'Blockchain';
+  | 'Tools';
+  // | 'Blockchain';
 
 interface Skill {
   name: string;
@@ -24,7 +24,7 @@ const skillCategories: SkillCategory[] = [
   'AI/ML Concepts',
   'Databases & Cloud',
   'Tools',
-  'Blockchain',
+  // 'Blockchain',
 ];
 
 const skills: Skill[] = [
@@ -78,11 +78,11 @@ const skills: Skill[] = [
   { name: 'FastAPI', category: 'Tools', icon:'/icons/fastapi.svg' },
   { name: 'Flask', category: 'Tools', icon:'/icons/flask.svg' },
 
-  // Blockchain
-  { name: 'Solidity', category: 'Blockchain', icon:'/icons/solidity.svg' },
-  { name: 'Ethereum', category: 'Blockchain', icon:'/icons/eth.svg' },
-  { name: 'Smart Contracts', category: 'Blockchain', icon:'/icons/smart-contract.svg' },
-  { name: 'Web3.js', category: 'Blockchain', icon:'/icons/web3.svg' },
+  // // Blockchain
+  // { name: 'Solidity', category: 'Blockchain', icon:'/icons/solidity.svg' },
+  // { name: 'Ethereum', category: 'Blockchain', icon:'/icons/eth.svg' },
+  // { name: 'Smart Contracts', category: 'Blockchain', icon:'/icons/smart-contract.svg' },
+  // { name: 'Web3.js', category: 'Blockchain', icon:'/icons/web3.svg' },
 ];
 
 const SkillItem = ({ skill, activeCategory }: { skill: any, activeCategory: any }) => {
