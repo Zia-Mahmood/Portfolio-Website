@@ -5,10 +5,32 @@ import { ChevronDown } from 'lucide-react';
 
 const experiences = [
   {
+    title: 'Teaching Assistant – Statistical Methods in AI, Deep Learning ',
+    company: 'TalentSprint',
+    image: 'logos/talent-sprint-logo.png',
+    period: 'March 2026 – July 2026',
+    location: 'Hyderabad, India',
+    description:
+      'Teaching Assistant for the Statistical Methods in AI and Deep Learning courses offered by the Talentsprint. The course provides a foundational introduction to machine learning concepts, algorithms, and practical considerations.',
+    achievements: [
+      'Conducted tutorials and doubt-clearing sessions for core ML concepts.',
+      'Supported students with assignments covering supervised learning, evaluation metrics, and model behavior.',
+      'Helped with grading, assessment review, and maintaining consistency in evaluation.',
+      'Clarified theoretical concepts by connecting them with practical examples and implementations.',
+    ],
+    technologies: [
+      'Machine Learning Fundamentals',
+      'Supervised Learning',
+      'Model Evaluation',
+      'Python',
+      'Teaching & Mentoring',
+    ],
+  },
+  {
     title: 'Teaching Assistant – Modern Machine Learning',
     company: 'International Institute of Information Technology Hyderabad (IIIT-H)',
     image: 'logos/dfl-logo.jpg',
-    period: 'Dec 2025 – Present',
+    period: 'Dec 2025 – Feb 2026',
     location: 'Hyderabad, India',
     description:
       'Teaching Assistant for the Modern Machine Learning (MML) course offered by the Division of Flexible Learning (DFL). The course provides a foundational introduction to machine learning concepts, algorithms, and practical considerations.',

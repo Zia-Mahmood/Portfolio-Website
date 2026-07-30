@@ -8,8 +8,8 @@ const educationData = [
     degree: 'M.Tech in Computer Science Engineering',
     institution: 'International Institute of Information Technology Hyderabad (IIIT-H)',
     location: 'Hyderabad, India',
-    period: 'Aug 2024 – Present',
-    grade: '7.59/10',
+    period: 'Aug 2024 – July 2026',
+    grade: '7.18/10',
     logo: 'IIIT-H',
     description:
       'Graduate program with a strong emphasis on computer science fundamentals, systems, and applied machine learning, supported by rigorous coursework and project-based evaluation.',
